@@ -1,4 +1,4 @@
-:camera: # Facebook-Album :camera:
+# Facebook-Album :camera:
 
 ## Album Slideshow
 
