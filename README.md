@@ -1,6 +1,6 @@
-# Facebook-Album
+:camera: # Facebook-Album :camera:
 
-#Part-1: Album Slideshow
+## Album Slideshow
 
 User visits your script page
 User will be asked to connect using his FB account
@@ -8,7 +8,7 @@ Once authenticated, your script will pull his album list from FB
 User will click on an album name/thumbnail
 A pure CSS and Plain JS slideshow will start showing photos in that album (in full-screen mode)
 
-#Part-2: Download Album
+## Download Album
 
 Beside every album icon (step #4 in part-1), add a new icon/button saying “Download This Album”
 When the user clicks on that button, your script will fetch all photos in that album behind the scene and zip them inside a folder on server.
