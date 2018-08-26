@@ -2,7 +2,7 @@
 
 ## Demo Application
 
-[ClickMe :point_right:](https://assembled.000webhostapp.com/) <br>
+:point_right: (https://assembled.000webhostapp.com/) <br>
 
 ## Album Slideshow
 
