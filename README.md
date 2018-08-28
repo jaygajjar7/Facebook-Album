@@ -9,7 +9,7 @@ An application for fetching,viewing and downloading Facebook Albums of a logged 
 
 ##  Features:exclamation:
 
- **1. Album Slideshow**
+ **1. Album Slideshow** <br>
 :heavy_check_mark: User visits your script page <br>
 :heavy_check_mark: User will be asked to connect using his FB account <br>
 :heavy_check_mark: Once you authenticated, your script will pull his album list from FB <br>
@@ -37,7 +37,7 @@ Technology which are used to develop the web-app
 
 ## :triangular_flag_on_post:Prerequisites
 
-:one: Create an Application [Facebook For Developer](https://developers.facebook.com/)
+:one: Create an Application [Facebook For Developer](https://developers.facebook.com/) <br>
     -   Copy your credentials and paste it to the **Config.php**  
 ```
 $fb = new \Facebook\Facebook([
