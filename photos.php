@@ -8,7 +8,7 @@ include 'config.php';
 $helper = $fb->getRedirectLoginHelper();
 
 if (isset($_GET['logout'])) {
-    $fbLogoutUrl = $helper->getLogoutUrl($_SESSION['fb_access_token'], 'http://localhost/rtcamp/index.php');
+    $fbLogoutUrl = $helper->getLogoutUrl($_SESSION['fb_access_token'], 'https://assembled.000webhostapp.com/index.php');
     session_destroy();
     unset($_SESSION['access_token']);
     header("Location: $fbLogoutUrl");

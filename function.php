@@ -7,7 +7,7 @@ if (!session_id()) {
 include 'config.php';
 include 'zipper.php';
 
-$fb->setDefaultAccessToken($_SESSION['fb_access_token']);
+$fb->setDefaultAccessToken($_SESSION['access_token']);
 
 $download_location = 'downloads/'.uniqid().'/';
 mkdir($download_location, 0777);
@@ -65,7 +65,7 @@ function downloadAlbum($album_id)
 
     do{
         foreach ($photos as $photo) {
-            file_put_contents( $album_location.'/'.uniqid().".jpg", url_get_contents( $photo['source']) );
+            file_put_contents( $album_location.'/'.uniqid().".jpg", file_get_contents( $photo['source']) );
         }
         $photos = $fb->next($photos);
     }while(!is_null($photos));
