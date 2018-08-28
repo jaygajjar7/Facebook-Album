@@ -1,6 +1,6 @@
 
 # :camera: Facebook-Album :camera: 
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jaygajjar7/Facebook-Album/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jaygajjar7/Facebook-Album/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/jaygajjar7/Facebook-Album/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/jaygajjar7/Facebook-Album/?branch=master) <br>
 An application for fetching,viewing and downloading Facebook Albums of a logged in user. 
 
 ## :video_game:Demo Application
