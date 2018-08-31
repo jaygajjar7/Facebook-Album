@@ -1,7 +1,7 @@
 <?php
     require_once "config.php";
     try{
-        $accessToken = $helper->getAccessToken();
+        $accessToken = $helper->getAccessToken("https://assembled.000webhostapp.com/fb-callback.php");
 
     }catch (\Facebook\Exceptions\FacebookResponseException $e)
     {
